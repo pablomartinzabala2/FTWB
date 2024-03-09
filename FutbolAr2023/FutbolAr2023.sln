@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FutbolAr2023", "FutbolAr2023\FutbolAr2023.vbproj", "{D4D552A3-7CD0-4948-8DBC-035550BD75B2}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TablaDLL", "..\TablaDLL\TablaDLL\TablaDLL.vbproj", "{AD2AFEDC-1283-4354-9331-CE465AAC44FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4D552A3-7CD0-4948-8DBC-035550BD75B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D552A3-7CD0-4948-8DBC-035550BD75B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D552A3-7CD0-4948-8DBC-035550BD75B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D552A3-7CD0-4948-8DBC-035550BD75B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD2AFEDC-1283-4354-9331-CE465AAC44FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD2AFEDC-1283-4354-9331-CE465AAC44FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD2AFEDC-1283-4354-9331-CE465AAC44FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD2AFEDC-1283-4354-9331-CE465AAC44FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

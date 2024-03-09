@@ -1,0 +1,33 @@
+﻿.GridHeader
+{
+    font-family : Calibri,Arial ;
+    font-weight :bold ;
+    background-color :#E97D73; 
+    height:25px;
+    color:White;
+    border-width:1px;
+    border-style: solid;
+     
+}
+
+.GridRow
+{
+    font-family : Calibri,Arial ;
+    font-weight :bold ;
+    height:25px;
+    color:Black;
+    background-color:White;
+}
+
+.AlternativaRow
+{
+    font-family : Calibri,Arial ;
+    font-weight :bold ;
+    height:25px;
+    color:Black;
+    background-color:White;
+    font-weight :bold ;
+}
+    
+
+

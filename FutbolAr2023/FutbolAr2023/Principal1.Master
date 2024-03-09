@@ -1,0 +1,382 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Principal1.master.vb" Inherits="FutbolAr2023.Principal1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/EstiloGrilla.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="page">
+                <div class="header" style="background-image: url('/images/Cesped2.jpg')">
+                    <div class="title">
+                        <h1></h1>
+                    </div>
+                    <div class="loginDisplay">
+
+                        <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                            <AnonymousTemplate>
+                                <a href="~/Account/Login.aspx" id="HeadLoginStatus" runat="server">Iniciar sesión</a>
+
+                            </AnonymousTemplate>
+                            <LoggedInTemplate>
+                                <span class="bold">EnableScriptGlobalization="True"
+                            
+                                </span>[
+                        <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Cerrar sesión"
+                            LogoutPageUrl="~/" />
+                                ]
+                            </LoggedInTemplate>
+                        </asp:LoginView>
+                    </div>
+                    <div class="clear hideSkiplink">
+                        <!-- 
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Página principal"/>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="Acerca de"/>
+                    </Items>
+                </asp:Menu>-->
+                        <div id="menuh">
+                            <ul>
+                                <li><a href="FrmRdoxfec2.aspx?id=42" id="primero">Selección Argentina</a></li>
+                                <li><a href="FrmRdoxfec2.aspx?id=52">Copa De la Liga Zona A</a></li>
+                                <li><a href="FrmRdoxfec2.aspx?id=53">Copa De la Liga Zona B</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="main">
+                    <div id="MargenIzquierdo">
+                        <div id="menuv">
+                            <asp:Literal ID="LiteralMenu" runat="server"></asp:Literal>
+                        </div>
+                    </div>
+                    <div id="ContenidoCentral">
+
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <div id="MargenDerecho">
+                        <table id="trTeam" width="150px" border="0"
+                            style="background-color: #D7DBDE;">
+                            <tr>
+                                <td style="background-color: #E97D73" colspan="4">
+
+                                    <asp:Label ID="lblCategoria" runat="server" Text="Primera División"
+                                        CssClass="Texto" Font-Bold="False" ForeColor="White"></asp:Label>
+
+                                </td>
+                            </tr>
+                            <tr id="trTeam14" runat="server">
+                                <td style="width: 40px; height: 40px;" align="center">
+                                    <asp:ImageButton ID="Img1" runat="server" Width="50px" Height="50px"
+                                        ImageUrl="" />
+                                </td>
+                                <td style="width: 40px; height: 40px;" align="center">
+                                    <asp:ImageButton ID="Img2" runat="server" Width="50px" Height="50px"
+                                        ImageUrl="" />
+                                </td>
+                                <td style="width: 40px; height: 40px;" align="center">
+                                    <asp:ImageButton ID="Img3" runat="server" Width="50px" Height="50px"
+                                        ImageUrl="" />
+                                </td>
+                                <td>
+                                    <asp:ImageButton ID="Img4" runat="server" Width="50px" Height="50px"
+                                        ImageUrl="" />
+                                </td>
+                            </tr>
+                            <tr id="trTeam58" runat="server">
+                                <td style="width: 40px; height: 40px;" align="center">
+                                    <asp:ImageButton ID="Img5" runat="server" Width="50px" Height="50px"
+                                        ImageUrl="" />
+                                </td>
+                                <td style="width: 40px; height: 40px;" align="center">
+                                    <asp:ImageButton ID="Img6" runat="server" Width="50px" Height="50px"
+                                        ImageUrl="" />
+                                </td>
+                                <td style="width: 40px; height: 40px;" align="center">
+                                    <asp:ImageButton ID="Img7" runat="server" Width="50px" Height="50px" ImageUrl="" />
+                                </td>
+                                <td>
+                                    <asp:ImageButton ID="Img8" runat="server" Width="50px" Height="50px" ImageUrl="" />
+                                </td>
+                            </tr>
+                            <tr id="trTeam912" runat="server">
+                                <td style="width: 40px; height: 40px;" align="center">
+                                    <asp:ImageButton ID="Img9" runat="server" Width="50px" Height="50px" ImageUrl="" />
+                                </td>
+                                <td style="width: 40px; height: 40px;" align="center">
+                                    <asp:ImageButton ID="Img10" runat="server" Width="50px" Height="50px" ImageUrl="" />
+                                </td>
+                                <td style="width: 40px; height: 40px;" align="center">
+                                    <asp:ImageButton ID="Img11" runat="server" Width="50px" Height="50px" ImageUrl="" />
+                                </td>
+                                <td>
+                                    <asp:ImageButton ID="Img12" runat="server" Width="50px" Height="50px" ImageUrl="" />
+                                </td>
+                            </tr>
+                            <tr id="trTeam1316" runat="server">
+                                <td style="width: 40px; height: 40px;" align="center">
+                                    <asp:ImageButton ID="Img13" runat="server" Width="50px" Height="50px" ImageUrl="" />
+                                </td>
+                                <td style="width: 40px; height: 40px;" align="center">
+                                    <asp:ImageButton ID="Img14" runat="server" Width="50px" Height="50px" ImageUrl="" />
+                                </td>
+                                <td style="width: 40px; height: 40px;" align="center">
+                                    <asp:ImageButton ID="Img15" runat="server" Width="50px" Height="50px" ImageUrl="" />
+                                </td>
+                                <td>
+                                    <asp:ImageButton ID="Img16" runat="server" Width="50px" Height="50px" ImageUrl="" />
+                                </td>
+                            </tr>
+                            <tr id="trTeam1720" runat="server">
+                                <td style="width: 50px; height: 50px;" align="center">
+                                    <asp:ImageButton ID="Img17" runat="server" Width="50px" Height="50px" ImageUrl="" />
+                                </td>
+                                <td style="width: 50px; height: 50px;" align="center">
+                                    <asp:ImageButton ID="Img18" runat="server" Width="50px" Height="50px" ImageUrl="" />
+                                </td>
+                                <td style="width: 50px; height: 50px;" align="center">
+                                    <asp:ImageButton ID="Img19" runat="server" Width="50px" Height="50px" ImageUrl="" />
+                                </td>
+                                <td>
+                                    <asp:ImageButton ID="Img20" runat="server" Width="50px" Height="50px" ImageUrl="" />
+                                </td>
+                            </tr>
+                            <tr id="trTeam2124" runat="server">
+                                <td style="width: 50px; height: 50px;" align="center">
+                                    <asp:ImageButton ID="Img21" runat="server" Width="50px" Height="50px" ImageUrl="" />
+                                </td>
+                                <td style="width: 50px; height: 50px;" align="center">
+                                    <asp:ImageButton ID="Img22" runat="server" Width="50px" Height="50px"
+                                        ImageUrl="" />
+                                </td>
+                                <td style="width: 50px; height: 50px;" align="center">
+                                    <asp:ImageButton ID="Img23" runat="server" Width="50px" Height="50px"
+                                        ImageUrl="" />
+                                </td>
+                                <td>
+                                    <asp:ImageButton ID="Img24" runat="server" Width="50px" Height="50px"
+                                        ImageUrl="" />
+                                </td>
+                            </tr>
+                            <tr id="trTeam2528" runat="server">
+                                <td style="width: 50px; height: 50px;" align="center">
+                                    <asp:ImageButton ID="Img25" runat="server" Width="50px" Height="50px"
+                                        ImageUrl="" />
+                                </td>
+                                <td style="width: 50px; height: 50px;" align="center">
+                                    <asp:ImageButton ID="Img26" runat="server" Width="50px" Height="50px"
+                                        ImageUrl="" />
+                                </td>
+                                <td style="width: 50px; height: 50px;" align="center">
+                                    <asp:ImageButton ID="Img27" runat="server" Width="50px" Height="50px"
+                                        ImageUrl="" />
+                                </td>
+                                <td>
+                                    <asp:ImageButton ID="Img28" runat="server" Width="50px" Height="50px"
+                                        ImageUrl="" />
+                                </td>
+                            </tr>
+                            <tr id="trTeam2930" runat="server">
+                                <td>
+                                    <asp:ImageButton ID="Img29" runat="server" Width="50px" Height="50px"
+                                        ImageUrl="" />
+                                </td>
+                                <td>
+                                    <asp:ImageButton ID="Img30" runat="server" Width="50px" Height="50px"
+                                        ImageUrl="" />
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">Fechas </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" align="center">
+                                    <table style="width: 150px" border="0">
+                                        <tr id="trFecha1a5" runat="server">
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton1" runat="server" Font-Size="Medium">1</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton2" runat="server" Font-Size="Medium">2</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton3" runat="server" Font-Size="Medium">3</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton4" runat="server" Font-Size="Medium">4</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton5" runat="server" Font-Size="Medium">5</asp:LinkButton>
+                                            </td>
+                                        </tr>
+                                        <tr id="trFecha6a10" runat="server">
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton6" runat="server" Font-Size="Medium">6</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton7" runat="server" Font-Size="Medium">7</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton8" runat="server" Font-Size="Medium">8</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton9" runat="server" Font-Size="Medium">9</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton10" runat="server" Font-Size="Medium">10</asp:LinkButton>
+                                            </td>
+                                        </tr>
+                                        <tr id="trFecha11a15" runat="server">
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton11" runat="server" Font-Size="Medium">11</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton12" runat="server" Font-Size="Medium">12</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton13" runat="server" Font-Size="Medium">13</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton14" runat="server" Font-Size="Medium">14</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton15" runat="server" Font-Size="Medium">15</asp:LinkButton>
+                                            </td>
+                                        </tr>
+                                        <tr id="trFecha16a20" runat="server">
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton16" runat="server" Font-Size="Medium">16</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton17" runat="server" Font-Size="Medium">17</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton18" runat="server" Font-Size="Medium">18</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton19" runat="server" Font-Size="Medium">19</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton20" runat="server" Font-Size="Medium">20</asp:LinkButton>
+                                            </td>
+                                        </tr>
+                                        <tr id="trFecha21a25" runat="server">
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton21" runat="server" Font-Size="Medium">21</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton22" runat="server" Font-Size="Medium">22</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton23" runat="server" Font-Size="Medium">23</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton24" runat="server" Font-Size="Medium">24</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton25" runat="server" Font-Size="Medium">25</asp:LinkButton>
+                                            </td>
+                                        </tr>
+                                        <tr id="trFecha26a30" runat="server">
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton26" runat="server" Font-Size="Medium">26</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton27" runat="server" Font-Size="Medium">27</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton28" runat="server" Font-Size="Medium">28</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton29" runat="server" Font-Size="Medium">29</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton30" runat="server" Font-Size="Medium">30</asp:LinkButton>
+                                            </td>
+                                        </tr>
+                                        <tr id="trFecha31a35" runat="server">
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton31" runat="server" Font-Size="Medium">31</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton32" runat="server" Font-Size="Medium">32</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton33" runat="server" Font-Size="Medium">33</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton34" runat="server" Font-Size="Medium">34</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton35" runat="server" Font-Size="Medium">35</asp:LinkButton>
+                                            </td>
+                                        </tr>
+                                        <tr id="trFecha36a40" runat="server">
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton36" runat="server" Font-Size="Medium">36</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton37" runat="server" Font-Size="Medium">37</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton38" runat="server" Font-Size="Medium">38</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton39" runat="server" Font-Size="Medium">39</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton40" runat="server" Font-Size="Medium">40</asp:LinkButton>
+                                            </td>
+                                        </tr>
+                                        <tr id="trfecha41a42" runat="server">
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton41" runat="server" Font-Size="Medium">41</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center">
+                                                <asp:LinkButton ID="LinkButton42" runat="server" Font-Size="Medium">42</asp:LinkButton>
+                                            </td>
+                                            <td style="width: 300px" align="center"></td>
+                                            <td style="width: 300px" align="center"></td>
+                                            <td style="width: 300px" align="center"></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="clear">
+                </div>
+                <div class="footer">
+                    <div class="InfoPie">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </form>
+</body>
+</html>
