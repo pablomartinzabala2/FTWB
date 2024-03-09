@@ -8,11 +8,11 @@ FutbolAr2023
 <members>
 <member name="F:FutbolAr2023._Default._form1">
 <summary>
-form1 control.
+Control form1.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.FrmFix._Label1">
@@ -35,236 +35,236 @@ To modify move field declaration from designer file to code-behind file.
 </member>
 <member name="F:FutbolAr2023.frmInfo._ScriptManager1">
 <summary>
-ScriptManager1 control.
+Control ScriptManager1.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._LblNombre2">
 <summary>
-LblNombre2 control.
+Control LblNombre2.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._IMG">
 <summary>
-IMG control.
+Control IMG.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._Label1">
 <summary>
-Label1 control.
+Control Label1.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._lblNombre">
 <summary>
-lblNombre control.
+Control lblNombre.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._Label2">
 <summary>
-Label2 control.
+Control Label2.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._lblfundacion">
 <summary>
-lblfundacion control.
+Control lblfundacion.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._Label3">
 <summary>
-Label3 control.
+Control Label3.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._lblestadio">
 <summary>
-lblestadio control.
+Control lblestadio.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._Label4">
 <summary>
-Label4 control.
+Control Label4.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._lblcapacidad">
 <summary>
-lblcapacidad control.
+Control lblcapacidad.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._Label5">
 <summary>
-Label5 control.
+Control Label5.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._lblubicacion">
 <summary>
-lblubicacion control.
+Control lblubicacion.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._tab">
 <summary>
-tab control.
+Control tab.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._Panel1">
 <summary>
-Panel1 control.
+Control Panel1.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._Grilla">
 <summary>
-Grilla control.
+Control Grilla.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._Panel2">
 <summary>
-Panel2 control.
+Control Panel2.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._Grilla2">
 <summary>
-Grilla2 control.
+Control Grilla2.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._lblNombre3">
 <summary>
-lblNombre3 control.
+Control lblNombre3.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._lblNombre4">
 <summary>
-lblNombre4 control.
+Control lblNombre4.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._lblNombre5">
 <summary>
-lblNombre5 control.
+Control lblNombre5.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._GrillaResumenLocal">
 <summary>
-GrillaResumenLocal control.
+Control GrillaResumenLocal.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._GrillaResumenVisitante">
 <summary>
-GrillaResumenVisitante control.
+Control GrillaResumenVisitante.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._GrillaResumenGeneral">
 <summary>
-GrillaResumenGeneral control.
+Control GrillaResumenGeneral.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._Panel3">
 <summary>
-Panel3 control.
+Control Panel3.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.frmInfo._Chart1">
 <summary>
-Chart1 control.
+Control Chart1.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:FutbolAr2023.FrmMT._ScriptManager1">

@@ -4,7 +4,7 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    prin<asp:ScriptManager ID="ScriptManager1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
     </asp:ScriptManager>
 <div>
      <table style="width: 480px">
@@ -57,7 +57,7 @@
      </table>>
 </div>
 <div>
-    <ajaxToolkit:TabContainer  ID ="tab" runat="server" Width="500px" ActiveTabIndex="2">
+    <ajaxToolkit:TabContainer  ID ="tab" runat="server" Width="500px" ActiveTabIndex="0">
         <ajaxToolkit:TabPanel ID ="Panel1" runat="server">
             <HeaderTemplate>Fixture</HeaderTemplate>
             <ContentTemplate>
@@ -95,7 +95,7 @@
                             </td>
                         </tr>
                         <tr>
-                        <td>
+                        <td style="vertical-align:top">
                         <asp:GridView ID="GrillaResumenLocal" runat="server" AutoGenerateColumns="False" GridLines="None"><AlternatingRowStyle CssClass="AlternativaRow" /><Columns>
                             <asp:BoundField DataField="RESULTADO" HeaderText="Res"></asp:BoundField><asp:BoundField 
                                 DataField="FRECUENCIA" HeaderText="Total"></asp:BoundField><asp:BoundField DataField="VEP"></asp:BoundField>
