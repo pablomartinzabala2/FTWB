@@ -12,6 +12,7 @@ Public Class FrmRdoxfec2
     Private Sub Getinf()
         Dim t As DataTable
         Dim fecha As Integer
+        Dim FecQueryStrin As Integer
         Dim IdTorneo As Integer
         IdTorneo = Convert.ToInt32(Request.QueryString("Id"))
         If IdTorneo = 0 Then
@@ -20,12 +21,20 @@ Public Class FrmRdoxfec2
 
         Dim idlocal, idvisitante As Integer
         Dim fix As New Fixture()
+        FecQueryStrin = Convert.ToInt32(Request.QueryString("Fec"))
 
         Dim idpartido As Int32
         fecha = fix.MaxFecha(IdTorneo)
         fecha = fecha + 1
-        Grilla.Columns(1).HeaderText = "Resultados de la fecha " + fecha.ToString()
-        t = fix.FixtureGetbyFecha(IdTorneo, fecha)
+
+        If (FecQueryStrin = 0) Then
+            t = fix.FixtureGetbyFecha(IdTorneo, fecha)
+            Grilla.Columns(1).HeaderText = "Resultados de la fecha " + fecha.ToString()
+        Else
+            t = fix.FixtureGetbyFecha(IdTorneo, FecQueryStrin)
+            Grilla.Columns(1).HeaderText = "Resultados de la fecha " + FecQueryStrin.ToString()
+        End If
+
         Grilla.DataSource = t
         Grilla.DataBind()
         Dim i As Integer

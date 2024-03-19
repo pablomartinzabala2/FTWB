@@ -1590,6 +1590,12 @@ Public Class Principal1
     End Sub
 
     Protected Sub LinkButton1_Click(sender As Object, e As EventArgs) Handles LinkButton1.Click
-
+        Dim IdTorneo As Integer
+        Dim Pagina As String
+        IdTorneo = Convert.ToInt32(Request.QueryString("Id"))
+        'String Pagina ="FrmRdoxfec2.aspx?id=42&Fec=0"
+        Pagina = "FrmRdoxfec2.aspx?id=" & IdTorneo.ToString()
+        Pagina = Pagina & "&Fec=1"
+        Response.Redirect(Pagina)
     End Sub
 End Class
