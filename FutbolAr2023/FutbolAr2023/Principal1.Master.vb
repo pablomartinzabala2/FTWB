@@ -57,6 +57,20 @@ Public Class Principal1
         Dim cantidad As Integer
         cantidad = fix.GetCantidaddeFechasxTorneo(IdTorneo)
         Select Case cantidad
+            Case 10
+                trFecha1a5.Visible = True
+                trFecha6a10.Visible = True
+                trFecha11a15.Visible = False
+                trFecha16a20.Visible = False
+                trFecha21a25.Visible = False
+                trFecha26a30.Visible = False
+                trFecha31a35.Visible = False
+                trFecha36a40.Visible = False
+                trfecha41a42.Visible = False
+                LinkButton17.Visible = False
+                LinkButton18.Visible = False
+                LinkButton19.Visible = False
+                LinkButton20.Visible = False
             Case 16
                 trFecha1a5.Visible = True
                 trFecha6a10.Visible = True
@@ -1445,5 +1459,137 @@ Public Class Principal1
         Dim pagina As String = "frmInfo.aspx?id=" + id.ToString() + "&idEq=" + idEq
         Session("Equipo") = Convert.ToInt16(Img1.CommandArgument.ToString())
         Response.Redirect(pagina)
+    End Sub
+
+    Protected Sub Img3_Click(sender As Object, e As ImageClickEventArgs) Handles Img3.Click
+        Dim id As String = Request.QueryString("Id").ToString()
+        Dim idEq As String = Img3.CommandArgument.ToString()
+        Dim pagina As String = "frmInfo.aspx?id=" + id.ToString() + "&idEq=" + idEq
+        Session("Equipo") = Convert.ToInt16(Img1.CommandArgument.ToString())
+        Response.Redirect(pagina)
+    End Sub
+
+    Protected Sub Img4_Click(sender As Object, e As ImageClickEventArgs) Handles Img4.Click
+        Dim id As String = Request.QueryString("Id").ToString()
+        Dim idEq As String = Img4.CommandArgument.ToString()
+        Dim pagina As String = "frmInfo.aspx?id=" + id.ToString() + "&idEq=" + idEq
+        Session("Equipo") = Convert.ToInt16(Img1.CommandArgument.ToString())
+        Response.Redirect(pagina)
+    End Sub
+
+    Protected Sub Img5_Click(sender As Object, e As ImageClickEventArgs) Handles Img5.Click
+        Dim id As String = Request.QueryString("Id").ToString()
+        Dim idEq As String = Img5.CommandArgument.ToString()
+        Dim pagina As String = "frmInfo.aspx?id=" + id.ToString() + "&idEq=" + idEq
+        Session("Equipo") = Convert.ToInt16(Img1.CommandArgument.ToString())
+        Response.Redirect(pagina)
+    End Sub
+
+    Protected Sub Img6_Click(sender As Object, e As ImageClickEventArgs) Handles Img6.Click
+        Dim id As String = Request.QueryString("Id").ToString()
+        Dim idEq As String = Img6.CommandArgument.ToString()
+        Dim pagina As String = "frmInfo.aspx?id=" + id.ToString() + "&idEq=" + idEq
+        Session("Equipo") = Convert.ToInt16(Img1.CommandArgument.ToString())
+        Response.Redirect(pagina)
+    End Sub
+
+    Protected Sub Img7_Click(sender As Object, e As ImageClickEventArgs) Handles Img7.Click
+        Dim id As String = Request.QueryString("Id").ToString()
+        Dim idEq As String = Img7.CommandArgument.ToString()
+        Dim pagina As String = "frmInfo.aspx?id=" + id.ToString() + "&idEq=" + idEq
+        Session("Equipo") = Convert.ToInt16(Img1.CommandArgument.ToString())
+        Response.Redirect(pagina)
+    End Sub
+
+    Protected Sub Img8_Click(sender As Object, e As ImageClickEventArgs) Handles Img8.Click
+        Dim id As String = Request.QueryString("Id").ToString()
+        Dim idEq As String = Img8.CommandArgument.ToString()
+        Dim pagina As String = "frmInfo.aspx?id=" + id.ToString() + "&idEq=" + idEq
+        Session("Equipo") = Convert.ToInt16(Img1.CommandArgument.ToString())
+        Response.Redirect(pagina)
+    End Sub
+
+    Protected Sub Img10_Click(sender As Object, e As ImageClickEventArgs) Handles Img10.Click
+        Dim id As String = Request.QueryString("Id").ToString()
+        Dim idEq As String = Img10.CommandArgument.ToString()
+        Dim pagina As String = "frmInfo.aspx?id=" + id.ToString() + "&idEq=" + idEq
+        Session("Equipo") = Convert.ToInt16(Img1.CommandArgument.ToString())
+        Response.Redirect(pagina)
+    End Sub
+
+    Protected Sub Img11_Click(sender As Object, e As ImageClickEventArgs) Handles Img11.Click
+        Dim id As String = Request.QueryString("Id").ToString()
+        Dim idEq As String = Img11.CommandArgument.ToString()
+        Dim pagina As String = "frmInfo.aspx?id=" + id.ToString() + "&idEq=" + idEq
+        Session("Equipo") = Convert.ToInt16(Img1.CommandArgument.ToString())
+        Response.Redirect(pagina)
+    End Sub
+
+    Protected Sub Img12_Click(sender As Object, e As ImageClickEventArgs) Handles Img12.Click
+        Dim id As String = Request.QueryString("Id").ToString()
+        Dim idEq As String = Img12.CommandArgument.ToString()
+        Dim pagina As String = "frmInfo.aspx?id=" + id.ToString() + "&idEq=" + idEq
+        Session("Equipo") = Convert.ToInt16(Img1.CommandArgument.ToString())
+        Response.Redirect(pagina)
+    End Sub
+
+    Protected Sub Img13_Click(sender As Object, e As ImageClickEventArgs) Handles Img13.Click
+        Dim id As String = Request.QueryString("Id").ToString()
+        Dim idEq As String = Img13.CommandArgument.ToString()
+        Dim pagina As String = "frmInfo.aspx?id=" + id.ToString() + "&idEq=" + idEq
+        Session("Equipo") = Convert.ToInt16(Img1.CommandArgument.ToString())
+        Response.Redirect(pagina)
+    End Sub
+
+    Protected Sub Img14_Click(sender As Object, e As ImageClickEventArgs) Handles Img14.Click
+        Dim id As String = Request.QueryString("Id").ToString()
+        Dim idEq As String = Img14.CommandArgument.ToString()
+        Dim pagina As String = "frmInfo.aspx?id=" + id.ToString() + "&idEq=" + idEq
+        Session("Equipo") = Convert.ToInt16(Img1.CommandArgument.ToString())
+        Response.Redirect(pagina)
+    End Sub
+
+    Protected Sub Img15_Click(sender As Object, e As ImageClickEventArgs) Handles Img15.Click
+        Dim id As String = Request.QueryString("Id").ToString()
+        Dim idEq As String = Img15.CommandArgument.ToString()
+        Dim pagina As String = "frmInfo.aspx?id=" + id.ToString() + "&idEq=" + idEq
+        Session("Equipo") = Convert.ToInt16(Img1.CommandArgument.ToString())
+        Response.Redirect(pagina)
+    End Sub
+
+    Protected Sub Img17_Click(sender As Object, e As ImageClickEventArgs) Handles Img17.Click
+        Dim id As String = Request.QueryString("Id").ToString()
+        Dim idEq As String = Img17.CommandArgument.ToString()
+        Dim pagina As String = "frmInfo.aspx?id=" + id.ToString() + "&idEq=" + idEq
+        Session("Equipo") = Convert.ToInt16(Img1.CommandArgument.ToString())
+        Response.Redirect(pagina)
+    End Sub
+
+    Protected Sub Img18_Click(sender As Object, e As ImageClickEventArgs) Handles Img18.Click
+        Dim id As String = Request.QueryString("Id").ToString()
+        Dim idEq As String = Img18.CommandArgument.ToString()
+        Dim pagina As String = "frmInfo.aspx?id=" + id.ToString() + "&idEq=" + idEq
+        Session("Equipo") = Convert.ToInt16(Img1.CommandArgument.ToString())
+        Response.Redirect(pagina)
+    End Sub
+
+    Protected Sub Img19_Click(sender As Object, e As ImageClickEventArgs) Handles Img19.Click
+        Dim id As String = Request.QueryString("Id").ToString()
+        Dim idEq As String = Img19.CommandArgument.ToString()
+        Dim pagina As String = "frmInfo.aspx?id=" + id.ToString() + "&idEq=" + idEq
+        Session("Equipo") = Convert.ToInt16(Img1.CommandArgument.ToString())
+        Response.Redirect(pagina)
+    End Sub
+
+    Protected Sub Img20_Click(sender As Object, e As ImageClickEventArgs) Handles Img20.Click
+        Dim id As String = Request.QueryString("Id").ToString()
+        Dim idEq As String = Img20.CommandArgument.ToString()
+        Dim pagina As String = "frmInfo.aspx?id=" + id.ToString() + "&idEq=" + idEq
+        Session("Equipo") = Convert.ToInt16(Img1.CommandArgument.ToString())
+        Response.Redirect(pagina)
+    End Sub
+
+    Protected Sub LinkButton1_Click(sender As Object, e As EventArgs) Handles LinkButton1.Click
+
     End Sub
 End Class

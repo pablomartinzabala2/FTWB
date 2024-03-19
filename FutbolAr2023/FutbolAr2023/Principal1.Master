@@ -5,7 +5,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link href="Site.css" rel="stylesheet" />
+    <!--
     <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+        -->
     <link href="~/Styles/EstiloGrilla.css" rel="stylesheet" type="text/css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -41,7 +44,7 @@
                     <Items>
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Página principal"/>
                         <asp:MenuItem NavigateUrl="~/About.aspx" Text="Acerca de"/>
-                    </Items>
+                    </Items> 
                 </asp:Menu>-->
                         <div id="menuh">
                             <ul>
@@ -217,7 +220,7 @@
                                     <table style="width: 150px" border="0">
                                         <tr id="trFecha1a5" runat="server">
                                             <td style="width: 300px" align="center">
-                                                <asp:LinkButton ID="LinkButton1" runat="server" Font-Size="Medium">1</asp:LinkButton>
+                                                <asp:LinkButton ID="LinkButton1" runat="server" ForeColor="Black" Font-Size="Medium">1</asp:LinkButton>
                                             </td>
                                             <td style="width: 300px" align="center">
                                                 <asp:LinkButton ID="LinkButton2" runat="server" Font-Size="Medium">2</asp:LinkButton>
