@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    frmfix<asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+    rmfixfrmfix<asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
     <ajaxToolkit:TabContainer ID="TabContainer1" runat="server" ActiveTabIndex="0" Width="500px">
         <ajaxToolkit:TabPanel ID="TabEquipos" runat="server" HeaderText="Equipos">
             <ContentTemplate>

@@ -1598,4 +1598,14 @@ Public Class Principal1
         Pagina = Pagina & "&Fec=1"
         Response.Redirect(Pagina)
     End Sub
+
+    Protected Sub LinkButton7_Click(sender As Object, e As EventArgs) Handles LinkButton7.Click
+        Dim IdTorneo As Integer
+        Dim Pagina As String
+        IdTorneo = Convert.ToInt32(Request.QueryString("Id"))
+        'String Pagina ="FrmRdoxfec2.aspx?id=42&Fec=0"
+        Pagina = "FrmRdoxfec2.aspx?id=" & IdTorneo.ToString()
+        Pagina = Pagina & "&Fec=7"
+        Response.Redirect(Pagina)
+    End Sub
 End Class

@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    frminfo<table>
+    <table>
         <tr id="trFechas" runat="server" visible="false">
             <td style="width: 500px" valign="top">
                 <table border="0">
@@ -52,9 +52,9 @@
                         <asp:BoundField DataField="idequipo">
                             <ItemStyle Font-Bold="False" />
                         </asp:BoundField>
-                        <asp:BoundField DataField="equipo" HeaderText="Equipo">
+                        <asp:BoundField DataField="equipo"  HeaderText="Equipo">
                             <HeaderStyle HorizontalAlign="Left" />
-                            <ItemStyle Width="360px" />
+                            <ItemStyle Width="360px" Font-Bold="true" />
                         </asp:BoundField>
                         <asp:BoundField DataField="PTS" HeaderText="Pts">
                             <ItemStyle HorizontalAlign="Center" />

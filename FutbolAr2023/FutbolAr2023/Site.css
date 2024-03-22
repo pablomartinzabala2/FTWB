@@ -458,19 +458,19 @@ div.accountInfo
     width: 100%;
 }
 
-.HeaderGrilla
-{  
-    background-color :#0069BE;
-    color :white;
-    height :30px; 
-    text-align :left;
+.HeaderGrilla {
+    background-color: #0069BE;
+    color: white;
+    height: 30px;
+    text-align: left;
+    font-size: medium;
 }
 
-.RowGrilla
-{
-    text-align :left;
-    font:bold;
-    height :25px;
+.RowGrilla {
+    text-align: left;
+   
+    height: 25px;
+    font-size: medium;
 }
 
 .AlternativaRow
