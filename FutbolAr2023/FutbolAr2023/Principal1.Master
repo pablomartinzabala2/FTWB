@@ -52,8 +52,8 @@
                                 <li><a href="FrmRdoxfec2.aspx?id=42&Fec=0" id="primero">Selección Argentina</a></li>
                                 <li><a href="FrmRdoxfec2.aspx?id=52&Fec=0">Copa De la Liga Zona A</a></li>
                                 <li><a href="FrmRdoxfec2.aspx?id=53&Fec=0">Copa De la Liga Zona B</a></li>
-                                 <li><a href="FrmRdoxfec2.aspx?id=53&Fec=0">N Macional Zona A</a></li>
-                                <li><a href="FrmRdoxfec2.aspx?id=53&Fec=0">N Macional Zona B</a></li>
+                                 <li><a href="FrmRdoxfec2.aspx?id=54&Fec=0">Primera Macional Zona A</a></li>
+                                <li><a href="FrmRdoxfec2.aspx?id=55&Fec=0">Primera Macional Zona B</a></li>
                             </ul>
                         </div>
                     </div>

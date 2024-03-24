@@ -137,6 +137,7 @@
     <Content Include="FrmRdoxfec2.aspx" />
     <Content Include="Imagen\Acassuso.jpg" />
     <Content Include="Imagen\afa.jpg" />
+    <Content Include="Imagen\Agropecuario.jpg" />
     <Content Include="Imagen\Aldosivi.jpg" />
     <Content Include="Imagen\AllBoys.jpg" />
     <Content Include="Imagen\Almagro.jpg" />
@@ -165,12 +166,14 @@
     <Content Include="Imagen\Brasil.jpg" />
     <Content Include="Imagen\Brown.jpg" />
     <Content Include="Imagen\BrownAdrogue.jpg" />
+    <Content Include="Imagen\Cadu.jpg" />
     <Content Include="Imagen\cai.jpg" />
     <Content Include="Imagen\Central.jpg" />
     <Content Include="Imagen\CentralCordoba.jpg" />
     <Content Include="Imagen\CentralCordobaRosario.jpg" />
     <Content Include="Imagen\CentralNorte.jpg" />
     <Content Include="Imagen\Chacarita.jpg" />
+    <Content Include="Imagen\Chaco.jpg" />
     <Content Include="Imagen\Chile.jpg" />
     <Content Include="Imagen\Cipolletti.JPG" />
     <Content Include="Imagen\Colegiales.jpg" />
@@ -187,6 +190,7 @@
     <Content Include="Imagen\Ecuador.jpg" />
     <Content Include="Imagen\Estudiantes.jpg" />
     <Content Include="Imagen\Estudiantesba.jpg" />
+    <Content Include="Imagen\EstudiantesRio4.jpg" />
     <Content Include="Imagen\EstudiantesSanLuis.jpg" />
     <Content Include="Imagen\Ferro.jpg" />
     <Content Include="Imagen\Flandria.jpg" />
@@ -202,6 +206,7 @@
     <Content Include="Imagen\GimnasiayTiro.jpg" />
     <Content Include="Imagen\GodoyCruz.jpg" />
     <Content Include="Imagen\Guarani.jpg" />
+    <Content Include="Imagen\Guemes.jpg" />
     <Content Include="Imagen\GuillermoBrown.jpg" />
     <Content Include="Imagen\Huracan.jpg" />
     <Content Include="Imagen\HuracanTA.jpg" />
@@ -219,8 +224,10 @@
     <Content Include="Imagen\Libertad.jpg" />
     <Content Include="Imagen\logonacionalb.JPG" />
     <Content Include="Imagen\LosAndes.jpg" />
+    <Content Include="Imagen\Madryn.jpg" />
     <Content Include="Imagen\Maipu.jpg" />
     <Content Include="Imagen\Merlo.jpg" />
+    <Content Include="Imagen\Mitre.jpg" />
     <Content Include="Imagen\Moron.jpg" />
     <Content Include="Imagen\Newells.jpg" />
     <Content Include="Imagen\NuevaChicago.jpg" />
@@ -243,11 +250,14 @@
     <Content Include="Imagen\SanLorenzo.jpg" />
     <Content Include="Imagen\SanMartinSj.jpg" />
     <Content Include="Imagen\SanMartinTuc.jpg" />
+    <Content Include="Imagen\SanMiguel.jpg" />
     <Content Include="Imagen\Santamarina.jpg" />
     <Content Include="Imagen\SanTelmo.jpg" />
     <Content Include="Imagen\Sarmiento.jpg" />
     <Content Include="Imagen\SportivoBelgrano.jpg" />
+    <Content Include="Imagen\Suarez.jpg" />
     <Content Include="Imagen\Talleres.jpg" />
+    <Content Include="Imagen\TalleresRe.jpg" />
     <Content Include="Imagen\Temperley.jpg" />
     <Content Include="Imagen\Tigre.jpg" />
     <Content Include="Imagen\TiroFederal.jpg" />
